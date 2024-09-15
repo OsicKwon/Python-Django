@@ -5,7 +5,7 @@
 
     #+BEGIN_SRC shell
         $ python -m venv . venv
-        $ source .venv/bin/activate.fish
+        $ source .venv/bin/activate.fish  # or activate for bash
         $ git init
         $ vim .gitignore
     #+END_SRC
