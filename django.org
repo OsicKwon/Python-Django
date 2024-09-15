@@ -1,18 +1,27 @@
-* test
+* Start
 
-    lslkfsafd
-    saflsakd
 
+** Environment Setting
 
     #+BEGIN_SRC shell
-        python -m venv . venv
-        source .venv/bin/activate.fish
-        git init
-        vim .gitignore
+        $ python -m venv . venv
+        $ source .venv/bin/activate.fish
+        $ git init
+        $ vim .gitignore
     #+END_SRC
 
 
-
+    exclude some files in =.gitignore=
     #+BEGIN_SRC .gitignore
         .venv
     #+END_SRC
+
+
+** Django Initializing
+    #+BEGIN_SRC shell
+        > pip install django (OR python -m pip install django)
+        > pip list (to check django installed)
+        > pip freeze > requirements.txt (version backup)
+        > bat requirements.txt
+    #+END_SRC
+
